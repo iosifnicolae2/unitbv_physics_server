@@ -1,0 +1,22 @@
+{
+  "name": "server_nodemcu",
+  "version": "1.0.0",
+  "description": "Websocket nodemcu temperature ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodemcu",
+    "websocket",
+    "node.js"
+  ],
+  "author": "Nicolae Iosif",
+  "license": "ISC",
+  "dependencies": {
+    "nodejs-websocket": "^1.7.1",
+    "socket.io": "^2.0.1",
+    "websocket": "^1.0.24"
+  }
+}
